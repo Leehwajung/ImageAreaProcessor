@@ -7,12 +7,12 @@ using System.Windows;
 // 어셈블리에 대한 일반 정보는 다음 특성 집합을 통해 
 // 제어됩니다. 어셈블리와 관련된 정보를 수정하려면
 // 이러한 특성 값을 변경하세요.
-[assembly: AssemblyTitle("ImageAreaProcessor")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Image Area Processor")]
+[assembly: AssemblyDescription("Image Area Processor")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ImageAreaProcessor")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCompany("Yonsei University")]
+[assembly: AssemblyProduct("Image Area Processor")]
+[assembly: AssemblyCopyright("Copyright © Hwajung Lee 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -53,3 +53,5 @@ using System.Windows;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: NeutralResourcesLanguage("ko-KR")]
+

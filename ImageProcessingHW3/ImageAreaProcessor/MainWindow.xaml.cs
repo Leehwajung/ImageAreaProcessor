@@ -12,17 +12,27 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Windows.Controls.Ribbon;
 
 namespace ImageAreaProcessor
 {
 	/// <summary>
 	/// MainWindow.xaml에 대한 상호 작용 논리
 	/// </summary>
-	public partial class MainWindow : Window
-	{
+	public partial class MainWindow : RibbonWindow
+    {
 		public MainWindow()
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            // Child window test
+            MainWindow cw = new MainWindow();
+            cw.ShowInTaskbar = false;
+            cw.Owner = Application.Current.MainWindow;
+            cw.Show();
+        }
+    }
 }
